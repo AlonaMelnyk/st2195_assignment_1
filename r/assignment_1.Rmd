@@ -1,0 +1,22 @@
+---
+title: "assignment_1"
+output: html_document
+date: "2023-11-12"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Assignment 1
+
+This is an RMarkdown file for my first assignment in the course.
+
+This code will return numbers from 1 to 10 with the help of R:
+
+```{r}
+for (x in 1:10) {
+  print(x)
+}
+
+```
